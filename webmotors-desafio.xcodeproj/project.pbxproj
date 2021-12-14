@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C017E2201FC3CAC3B5FA890E /* Pods_webmotors_desafio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5CFA4AF681A9F187C3EACE6 /* Pods_webmotors_desafio.framework */; };
 		F989C5392767598D00B50C01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989C5382767598D00B50C01 /* AppDelegate.swift */; };
 		F989C53B2767598D00B50C01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989C53A2767598D00B50C01 /* SceneDelegate.swift */; };
-		F989C53D2767598D00B50C01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989C53C2767598D00B50C01 /* ViewController.swift */; };
+		F989C53D2767598D00B50C01 /* CarrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989C53C2767598D00B50C01 /* CarrosViewController.swift */; };
 		F989C5402767598D00B50C01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F989C53E2767598D00B50C01 /* Main.storyboard */; };
 		F989C5422767598F00B50C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F989C5412767598F00B50C01 /* Assets.xcassets */; };
 		F989C5452767598F00B50C01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F989C5432767598F00B50C01 /* LaunchScreen.storyboard */; };
+		F989C55027675E3300B50C01 /* CarrosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989C54E27675E3300B50C01 /* CarrosTableViewCell.swift */; };
+		F989C55127675E3300B50C01 /* CarrosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F989C54F27675E3300B50C01 /* CarrosTableViewCell.xib */; };
+		F989C553276760C700B50C01 /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F989C552276760C700B50C01 /* Carro.swift */; };
+		F9E04E842768D7D800A4211E /* DetalhesCarroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E04E822768D7D800A4211E /* DetalhesCarroViewController.swift */; };
+		F9E04E852768D7D800A4211E /* DetalhesCarroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9E04E832768D7D800A4211E /* DetalhesCarroViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		221C4C36A3E9B378CFFA4E86 /* Pods-webmotors-desafio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webmotors-desafio.debug.xcconfig"; path = "Target Support Files/Pods-webmotors-desafio/Pods-webmotors-desafio.debug.xcconfig"; sourceTree = "<group>"; };
+		A58C08F3CC27CC97DCD5D57A /* Pods-webmotors-desafio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webmotors-desafio.release.xcconfig"; path = "Target Support Files/Pods-webmotors-desafio/Pods-webmotors-desafio.release.xcconfig"; sourceTree = "<group>"; };
+		A5CFA4AF681A9F187C3EACE6 /* Pods_webmotors_desafio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_webmotors_desafio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F989C5352767598D00B50C01 /* webmotors-desafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webmotors-desafio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F989C5382767598D00B50C01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F989C53A2767598D00B50C01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F989C53C2767598D00B50C01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F989C53C2767598D00B50C01 /* CarrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosViewController.swift; sourceTree = "<group>"; };
 		F989C53F2767598D00B50C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F989C5412767598F00B50C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F989C5442767598F00B50C01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F989C5462767598F00B50C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F989C54E27675E3300B50C01 /* CarrosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosTableViewCell.swift; sourceTree = "<group>"; };
+		F989C54F27675E3300B50C01 /* CarrosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarrosTableViewCell.xib; sourceTree = "<group>"; };
+		F989C552276760C700B50C01 /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		F9E04E822768D7D800A4211E /* DetalhesCarroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesCarroViewController.swift; sourceTree = "<group>"; };
+		F9E04E832768D7D800A4211E /* DetalhesCarroViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalhesCarroViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017E2201FC3CAC3B5FA890E /* Pods_webmotors_desafio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5652C525766D7C7D7780F104 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221C4C36A3E9B378CFFA4E86 /* Pods-webmotors-desafio.debug.xcconfig */,
+				A58C08F3CC27CC97DCD5D57A /* Pods-webmotors-desafio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DD411EB708C5213AFD16195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5CFA4AF681A9F187C3EACE6 /* Pods_webmotors_desafio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F989C52C2767598D00B50C01 = {
 			isa = PBXGroup;
 			children = (
 				F989C5372767598D00B50C01 /* webmotors-desafio */,
 				F989C5362767598D00B50C01 /* Products */,
+				5652C525766D7C7D7780F104 /* Pods */,
+				8DD411EB708C5213AFD16195 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +92,12 @@
 			children = (
 				F989C5382767598D00B50C01 /* AppDelegate.swift */,
 				F989C53A2767598D00B50C01 /* SceneDelegate.swift */,
-				F989C53C2767598D00B50C01 /* ViewController.swift */,
+				F989C53C2767598D00B50C01 /* CarrosViewController.swift */,
+				F9E04E822768D7D800A4211E /* DetalhesCarroViewController.swift */,
+				F9E04E832768D7D800A4211E /* DetalhesCarroViewController.xib */,
+				F989C552276760C700B50C01 /* Carro.swift */,
+				F989C54E27675E3300B50C01 /* CarrosTableViewCell.swift */,
+				F989C54F27675E3300B50C01 /* CarrosTableViewCell.xib */,
 				F989C53E2767598D00B50C01 /* Main.storyboard */,
 				F989C5412767598F00B50C01 /* Assets.xcassets */,
 				F989C5432767598F00B50C01 /* LaunchScreen.storyboard */,
@@ -74,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F989C5492767598F00B50C01 /* Build configuration list for PBXNativeTarget "webmotors-desafio" */;
 			buildPhases = (
+				2F340BADC836B51FC08D4ED8 /* [CP] Check Pods Manifest.lock */,
 				F989C5312767598D00B50C01 /* Sources */,
 				F989C5322767598D00B50C01 /* Frameworks */,
 				F989C5332767598D00B50C01 /* Resources */,
+				F488BA3972A2923B228C56B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F989C5452767598F00B50C01 /* LaunchScreen.storyboard in Resources */,
+				F989C55127675E3300B50C01 /* CarrosTableViewCell.xib in Resources */,
+				F9E04E852768D7D800A4211E /* DetalhesCarroViewController.xib in Resources */,
 				F989C5422767598F00B50C01 /* Assets.xcassets in Resources */,
 				F989C5402767598D00B50C01 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +176,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F340BADC836B51FC08D4ED8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-webmotors-desafio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F488BA3972A2923B228C56B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-webmotors-desafio/Pods-webmotors-desafio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-webmotors-desafio/Pods-webmotors-desafio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-webmotors-desafio/Pods-webmotors-desafio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F989C5312767598D00B50C01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F989C53D2767598D00B50C01 /* ViewController.swift in Sources */,
+				F9E04E842768D7D800A4211E /* DetalhesCarroViewController.swift in Sources */,
+				F989C53D2767598D00B50C01 /* CarrosViewController.swift in Sources */,
+				F989C55027675E3300B50C01 /* CarrosTableViewCell.swift in Sources */,
 				F989C5392767598D00B50C01 /* AppDelegate.swift in Sources */,
 				F989C53B2767598D00B50C01 /* SceneDelegate.swift in Sources */,
+				F989C553276760C700B50C01 /* Carro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +372,7 @@
 		};
 		F989C54A2767598F00B50C01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221C4C36A3E9B378CFFA4E86 /* Pods-webmotors-desafio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +400,7 @@
 		};
 		F989C54B2767598F00B50C01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58C08F3CC27CC97DCD5D57A /* Pods-webmotors-desafio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
