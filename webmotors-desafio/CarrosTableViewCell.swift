@@ -12,11 +12,10 @@ class CarrosTableViewCell: UITableViewCell {
     @IBOutlet weak var carroImage: UIImageView!
     @IBOutlet weak var nomeLabel: UILabel!
     @IBOutlet weak var precoLabel: UILabel!
-    
+    @IBOutlet weak var kmLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

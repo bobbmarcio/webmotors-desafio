@@ -58,17 +58,15 @@ class CarrosViewController: UITableViewController {
         let carro = carros[indexPath.row]
         cell.nomeLabel.text = "\(carro.Make)  \(carro.Model)"
         cell.precoLabel.text = "R$ \(carro.Price)"
-        
-        cell.nomeLabel.backgroundColor = .red
-        cell.precoLabel.backgroundColor = .red
-                
+        cell.kmLabel.text = "\(carro.KM)"
+                        
         let photoUrl = carro.Image.replacingOccurrences(of: "http", with: "https")
         
         AF.download(photoUrl).responseData { response in
             switch response.result {
             case .success(let data):
                 cell.carroImage.image = UIImage(data: data)
-                //self.tableView.reloadData()
+                print("Setando a imagem \(photoUrl) para o carro \(carro.ID) - \(Date.now)")
             default:
                 break
             }
@@ -76,13 +74,8 @@ class CarrosViewController: UITableViewController {
         
         let press = UITapGestureRecognizer(target: self, action: #selector(mostrarDetalhes(_:)))
         cell.addGestureRecognizer(press)
-                
+                        
         return cell
-    }
-    
-    func getDocumentsDirectory() -> URL {
-        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-        return paths[0]
     }
     
     @objc func mostrarDetalhes(_ gesture: UITapGestureRecognizer) {

@@ -9,52 +9,60 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CarrosCell" rowHeight="182" id="KGk-i7-Jjw" customClass="CarrosTableViewCell" customModule="webmotors_desafio" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="474" height="182"/>
+        <tableViewCell contentMode="scaleAspectFit" selectionStyle="blue" indentationWidth="0.0" shouldIndentWhileEditing="NO" reuseIdentifier="CarrosCell" rowHeight="107" id="KGk-i7-Jjw" customClass="CarrosTableViewCell" customModule="webmotors_desafio" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="474" height="107"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="474" height="182"/>
+                <rect key="frame" x="0.0" y="0.0" width="474" height="107"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="precoLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9P4-68-ajQ">
-                        <rect key="frame" x="284" y="134" width="85.5" height="21"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="21" id="KEn-ug-lck"/>
-                        </constraints>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMX-DK-cmc">
+                        <rect key="frame" x="20" y="17" width="327.5" height="72"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nomeLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZpW-fs-dlG">
+                        <rect key="frame" x="369.5" y="17" width="84.5" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OMX-DK-cmc">
-                        <rect key="frame" x="20" y="27" width="256" height="128"/>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="nomeLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28M-7v-lvb">
-                        <rect key="frame" x="284" y="27" width="192" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="precoLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AL1-92-cYH">
+                        <rect key="frame" x="368.5" y="68" width="85.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kmLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mse-TT-sWa">
+                        <rect key="frame" x="389.5" y="43" width="64.5" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailingMargin" secondItem="28M-7v-lvb" secondAttribute="trailing" constant="-22" id="0JP-OS-EkL"/>
-                    <constraint firstItem="OMX-DK-cmc" firstAttribute="bottom" secondItem="9P4-68-ajQ" secondAttribute="bottom" id="6Jq-5l-RWb"/>
-                    <constraint firstItem="OMX-DK-cmc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-28" id="8Gs-BO-6Ik"/>
-                    <constraint firstItem="OMX-DK-cmc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="HAq-nJ-DlA"/>
-                    <constraint firstItem="28M-7v-lvb" firstAttribute="leading" secondItem="9P4-68-ajQ" secondAttribute="leading" id="I2Y-7x-A8O"/>
-                    <constraint firstAttribute="trailingMargin" secondItem="9P4-68-ajQ" secondAttribute="trailing" constant="84.5" id="Nlq-98-Pti"/>
-                    <constraint firstItem="9P4-68-ajQ" firstAttribute="top" secondItem="28M-7v-lvb" secondAttribute="bottom" constant="86" id="RtE-YN-XvV"/>
-                    <constraint firstItem="OMX-DK-cmc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Slb-Wk-Fbx"/>
-                    <constraint firstItem="28M-7v-lvb" firstAttribute="leading" secondItem="OMX-DK-cmc" secondAttribute="trailing" constant="8" id="UIU-2b-XjH"/>
-                    <constraint firstItem="OMX-DK-cmc" firstAttribute="top" secondItem="28M-7v-lvb" secondAttribute="top" id="Zne-Zf-eRv"/>
+                    <constraint firstItem="AL1-92-cYH" firstAttribute="leading" secondItem="OMX-DK-cmc" secondAttribute="trailing" constant="21" id="06i-Zc-Z5m"/>
+                    <constraint firstAttribute="trailing" secondItem="ZpW-fs-dlG" secondAttribute="trailing" constant="20" id="4Uz-YK-2pC"/>
+                    <constraint firstItem="AL1-92-cYH" firstAttribute="top" secondItem="Mse-TT-sWa" secondAttribute="bottom" constant="4" id="4lJ-z2-4D7"/>
+                    <constraint firstAttribute="bottom" secondItem="OMX-DK-cmc" secondAttribute="bottom" constant="18" id="Azr-tG-htM"/>
+                    <constraint firstItem="Mse-TT-sWa" firstAttribute="leading" secondItem="OMX-DK-cmc" secondAttribute="trailing" constant="42" id="Sby-cP-zbl"/>
+                    <constraint firstItem="Mse-TT-sWa" firstAttribute="top" secondItem="ZpW-fs-dlG" secondAttribute="bottom" constant="5" id="cp7-kH-zlm"/>
+                    <constraint firstItem="OMX-DK-cmc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="eGR-pm-9Qa"/>
+                    <constraint firstItem="ZpW-fs-dlG" firstAttribute="leading" secondItem="OMX-DK-cmc" secondAttribute="trailing" constant="22" id="g3N-2j-Gef"/>
+                    <constraint firstAttribute="trailing" secondItem="Mse-TT-sWa" secondAttribute="trailing" constant="20" id="irY-OZ-uBr"/>
+                    <constraint firstItem="ZpW-fs-dlG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="k39-ZC-dGI"/>
+                    <constraint firstAttribute="trailing" secondItem="AL1-92-cYH" secondAttribute="trailing" constant="20" id="rMd-9X-l7B"/>
+                    <constraint firstItem="AL1-92-cYH" firstAttribute="top" secondItem="Mse-TT-sWa" secondAttribute="bottom" constant="4" id="y1y-Qz-PLB"/>
+                    <constraint firstItem="OMX-DK-cmc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="yk6-O0-zPS"/>
+                    <constraint firstAttribute="bottom" secondItem="AL1-92-cYH" secondAttribute="bottom" constant="18" id="zLd-3R-xhh"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="carroImage" destination="OMX-DK-cmc" id="AUM-3K-KkA"/>
-                <outlet property="nomeLabel" destination="28M-7v-lvb" id="hwF-j6-kwr"/>
-                <outlet property="precoLabel" destination="9P4-68-ajQ" id="nXd-Y4-3Wh"/>
+                <outlet property="kmLabel" destination="Mse-TT-sWa" id="iwV-bt-hOo"/>
+                <outlet property="nomeLabel" destination="ZpW-fs-dlG" id="uft-R4-v5g"/>
+                <outlet property="precoLabel" destination="AL1-92-cYH" id="HJN-iq-ktM"/>
             </connections>
-            <point key="canvasLocation" x="2.8985507246376816" y="-20.758928571428569"/>
+            <point key="canvasLocation" x="2.8985507246376816" y="-54.575892857142854"/>
         </tableViewCell>
     </objects>
 </document>
